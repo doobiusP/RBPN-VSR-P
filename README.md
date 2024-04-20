@@ -17,3 +17,10 @@ To perform VSR (Video Super Resolution), we perform MISO-SR on the target frame 
   <li>Splotches of intense color would appear over the frames in seemingly random locations producing unwanted artifacts.</li>
 </ul>
 
+### Further plans
+* Develop a seamless and interactive interface to the model via a website using **Flask** as the framework alongside Javascript and HTML/CSS
+* Explore basicVSR++ as an alternative to RBPN considering infeasibility of model application to any use case
+### References
+* <a href="https://paperswithcode.com/paper/recurrent-back-projection-network-for-video/review/">Recurrent Back-Projection Network for Video Super-Resolution</a>
+* <a href="https://youtu.be/VSSyPskheaE?si=1otPGzA77ieLt2MU">Coarse-to-Fine Flow Estimation | Optical Flow </a>
+
