@@ -15,6 +15,7 @@ To perform VSR (Video Super Resolution), we perform MISO-SR on the target frame 
   <li>Could not identify modifications needed to produce color-correct frames with few artifacts. </li>
   <li>Output would capture image structure and content but would fail to perceive the correct colors leading to frames with bright hues.</li>
   <li>Localized patches of intense color would appear over the frames in seemingly random locations producing unwanted artifacts.</li>
+  <li>The model is inefficient when used with any video. Example: a 7-second video takes 12 mins to upscale despite using the GPU...</li>
 </ul>
 
 ### Further plans
