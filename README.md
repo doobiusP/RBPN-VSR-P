@@ -20,7 +20,12 @@ To perform VSR (Video Super Resolution), we perform MISO-SR on the target frame 
 ### Further plans
 * Develop a seamless and interactive interface to the model via a website using **Flask** as the framework alongside Javascript and HTML/CSS
 * Explore basicVSR++ as an alternative to RBPN considering infeasibility of model application to any use case
+
+### Associated links
+* <a href="https://www.kaggle.com/code/doobiusp/rbpn-vsr-v1">Kaggle code</a>
+ 
 ### References
 * <a href="https://paperswithcode.com/paper/recurrent-back-projection-network-for-video/review/">Recurrent Back-Projection Network for Video Super-Resolution</a>
 * <a href="https://youtu.be/VSSyPskheaE?si=1otPGzA77ieLt2MU">Coarse-to-Fine Flow Estimation | Optical Flow </a>
+* <a href="http://toflow.csail.mit.edu/">VIMEO90K dataset</a>
 
