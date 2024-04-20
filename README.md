@@ -10,11 +10,11 @@ To perform VSR (Video Super Resolution), we perform MISO-SR on the target frame 
 <ul>
   <li>Training the RBPN was very time-consuming with time for one epoch being around 35 mins. This was due to the limited RAM on free cloud-based GPU services such as Kaggle which could only serve small batch sizes.</li> 
   <li>Had to train with a small dataset which hindered output quality as larger datasets would make training times infeasible. </li>
-  <li>Training would often stall and losses would oscillate regardless of tuning hyperparameters resulting in blank outputs after each epoch.</li>
+  <li>Training would often stall and losses tended to oscillate regardless of tuning hyperparameters resulting in blank/totally black outputs after each epoch.</li>
   <li>Problem identified was Gradient Explosion and was mitigated by introducing batch-norm layers; however the oscillating loss was still persistent.</li>
   <li>Could not identify modifications needed to produce color-correct frames with few artifacts. </li>
   <li>Output would capture image structure and content but would fail to perceive the correct colors leading to frames with bright hues.</li>
-  <li>Splotches of intense color would appear over the frames in seemingly random locations producing unwanted artifacts.</li>
+  <li>Localized patches of intense color would appear over the frames in seemingly random locations producing unwanted artifacts.</li>
 </ul>
 
 ### Further plans
