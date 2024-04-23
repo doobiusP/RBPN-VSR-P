@@ -22,6 +22,13 @@ _<p align="center" style="font-size:10px"> Fig 3. RBPN (Recurrent-Back-Projectio
   <li>The model is inefficient when used with any video. Example: a 7-second video takes 12 mins to upscale despite using the GPU...</li>
 </ul>
 
+### Currently Working On
+
+<ul>
+  <li>Designing first draft of website to learn basics of HTML and CSS</li>
+  <li>Researching basicVSR++</li>
+</ul>
+
 ### Further plans
 
 - Develop a seamless and interactive interface to the model via a website using **Flask** as the framework alongside Javascript and HTML/CSS
